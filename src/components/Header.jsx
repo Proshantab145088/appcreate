@@ -6,7 +6,7 @@ import Flex from './Flex'
 const Header = () => {
   return (
     <Flex className={`justify-between`}>
-       <Image src={`/public/vite.svg`} alt={`logo`}/>
+       <Image src={`vite.svg`} alt={`logo`}/>
         <List/>
     </Flex>
   )
