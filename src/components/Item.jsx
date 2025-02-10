@@ -3,8 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom'
 import { userContext } from './Context'
 
 const Item = () => {
-  const user = useContext(userContext)
-  console.log(user);
+  
   
     const {id} = useParams()
     const navigate = useNavigate()
